@@ -5,7 +5,7 @@ from telegram.ext import ApplicationBuilder, MessageHandler, filters, ContextTyp
 TOKEN = "7414416452:AAGXzuIMfox-3cWddcpNQTSe8CNgpnrqOJw"
 GROUP_ID = -1002271214377 #-1002302994371  # Replace with your supergroup ID
 ANNOUNCEMENT_TOPIC_ID = 2  # Replace with your actual announcement topic ID
-DISCUSSION_TOPIC_ID =  1   # Replace with your actual discussion topic ID
+DISCUSSION_TOPIC_ID =  0   # Replace with your actual discussion topic ID
 
 # === MAIN HANDLER ===
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
